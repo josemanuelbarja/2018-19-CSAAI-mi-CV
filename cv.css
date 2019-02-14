@@ -1,53 +1,46 @@
+
 body {
-  padding: 20px;
-  margin: 20px;
-  background-color: linen;
-  border: none;
+  padding: 10px 40px; margin: 50px auto; background-color: #f5f5f5;
+  border: solid #777; border-width: 4px 0 2px 0;
 }
 
-h1 {
-  padding: 10px;
-  margin: 10px;
-  border: solid;
-  border-style: double;
-  text-align: center;
-  font-family: fantasy;
-  font-size: 32px;
-  color: grey;
-  width: 400px;
+h1 { padding: 10px; margin: 10px; border: solid; border-style: double;
+    border-radius: 20px; text-align: center; font-family: italic;
+    font-size: 46px; color: #333; text-transform: uppercase; letter-spacing: 2px;
+    display: flex;
 }
 
 h2 {
-  padding: 10px;
-  margin: 10px;
-  border: solid;
-  border-color: grey;
-  text-align: center;
-  font-family: fantasy;
-  font-size: 14px;
-  color: grey;
-  width: 400px;
+  padding: 10px; margin: 10px; border: solid; border-color: grey;
+  text-align: center; font-size: 140%; letter-spacing: 1px; border-radius: 20px;
+  display: inline-flex;
 }
 
 .datospersonales {
-  padding: 10px;
-  margin: 10px;
-  border: solid;
-  width: 400px;
-  height: auto;
-  border: solid #c3c3c3;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-content: center;
-  align-content: center;
-  background-color: lightgrey;
-  color: grey;
+  padding: 10px; margin: 10px; height: auto; border: solid #c3c3c3;
+  background-color: lightgrey; color: grey;
 }
-/*p {
-  padding: 10px;
-  margin: 10px;
-  border: solid;
-  border-color: gray;
-}*/
+
+.maininfo {
+  margin: 10px; padding: 10px;font-family: georgia; color: #444; border: solid;
+}
+
+.upinfo {
+   margin: 20px 0 40px 0; padding-bottom: ; border-bottom: solid #444;
+   border: solid;
+}
+
+#myphoto {
+  border: 1px solid #999999;
+  padding:4px;
+  margin: 20px 10px 20px 10px;
+  float:right;
+  margin: 10px 0 10px 10px
+  margin: 10px 0 10px 5px;
+  padding: 0px;
+}
+
+#myphoto {
+  width: 14em;
+  height: 10em;
+}
